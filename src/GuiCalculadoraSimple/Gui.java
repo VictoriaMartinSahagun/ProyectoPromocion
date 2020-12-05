@@ -11,6 +11,7 @@ import java.util.ArrayList;
 import java.awt.event.ActionEvent;
 import java.awt.Font;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.SwingConstants;
 import LogicaCalculadoraSimple.CalculadoraSimple;
 import java.awt.Choice;

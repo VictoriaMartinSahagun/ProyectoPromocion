@@ -19,6 +19,7 @@ public class CalculadoraSimple {
 	public void getPlugins() {
 		ClassLoader cl = new PluginClassLoader(dir);
 		String[] files = dir.list();
+		
 		nombrePlugins.clear();
 		plugins.clear();
 		if(files!=null) {
@@ -40,6 +41,8 @@ public class CalculadoraSimple {
 					JOptionPane.showMessageDialog(null, ex1.getClass().getSimpleName());
 				}
 			}
+		}else {
+			JOptionPane.showMessageDialog(null, "Error en la ruta");
 		}
 	}
 	
