@@ -10,7 +10,7 @@ public class CalculadoraSimple {
 	ArrayList<String> nombrePlugins;
 	
 	public CalculadoraSimple() {
-		dir= new File("./bin/plugins");
+		dir= new File("./plugins");
 		plugins = new ArrayList<PluginInterface>();
 		nombrePlugins = new ArrayList<String>();
 	}
